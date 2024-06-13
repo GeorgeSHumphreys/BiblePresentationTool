@@ -11,6 +11,8 @@ The idea for this project is that the presentation side has very little setup. B
 
 If you are testing this via the example project, on play you can open the Output Log and search for "PRESENTATION FOLDER". This will show you the executables running folder, where you can create the "PresentationData" folder. In this folder, add a sub folder for each PointGroup (Think of it as a mini presentation, the window will open, go through all of the sub points in the folder, then close once they are done). Inside each folder, add as many png or mp4 files as you would like, specifying the order with a predicate of 1., 2., 3. etc...
 
+![alt text](ReadmeImages/PresentationSetup.PNG)
+
 With the example project, the only API call you would need to make (similar to the Point Triggers) is a ShowPoint() call. This is due to the Player Controller handling the incrementation of points and groups.
 
 ## Example Project
